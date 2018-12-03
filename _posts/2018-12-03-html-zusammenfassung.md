@@ -503,6 +503,8 @@ keywords: "html, wt"
   <p>§2: The second rule of Fight Club is: Always bring cupcakes.</p>
   ```
 
+***
+
 ### Acsessibility
 
 - **dont** use tables for layouts
