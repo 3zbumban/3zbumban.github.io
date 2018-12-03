@@ -6,7 +6,7 @@ description: "HTML zusammenfassung"
 keywords: "html, wt"
 ---
 
-# 1. HTML
+# HTML
 
 ```html
 <!DOCTYPE html>
@@ -45,7 +45,9 @@ keywords: "html, wt"
 
 - _[list of reserved charakters](https://dev.w3.org/html5/html-author/charref)_
 
-## TAGS
+***
+
+## Tags
 
 - [**html**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
   - **lang=""** declare language of web page, used by screen readers
@@ -320,10 +322,21 @@ keywords: "html, wt"
 
 - [**table**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
   - all attributes are deprecated
+  - structure:
+    - `<table>...</table>` main element
+      - optional:
+        - `<thead>...</thead>` _use `<th>` inside_
+        - `<tbody>...</tbody>` _use `<td>` inside_
+    - `<tr>...</tr>` _table row_
+    - `<td>...</td>` _table data used inside `<tr>`_
+    - `<th>...</th>` _table head used inside `<thead>` or `<tr>`_
+    - optional: `<colgroup>` and inside `<col>` to style table
+      - **span=""** colgroup attribute _number_
 
   Example:
 
   ```html
+  <!-- only using tr th and td and colgroup -->
   <p>Table with colgroup</p>
   <table>
     <colgroup span="4"></colgroup>
@@ -348,10 +361,29 @@ keywords: "html, wt"
   </table>
   ```
 
+  ```html
+  <table>
+    <thead>
+        <tr>
+          <th colspan="1">The table header</th>
+          <th>Zwei</th>
+          <th>drei</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>The table body</td>
+            <td>with two columns</td>
+            <td>drei</td>
+        </tr>
+    </tbody>
+  </table>
+  ```
+
 ***
 
 - [**h1 ... h6**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
-  - categories: _Flow contend, heading contend, palpable contend
+  - categories: _Flow contend, heading contend, palpable contend_
   - [do not skip header levels](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#Navigation)
   - avoid `h1` more than once on a page
   - heading information may be used to construct table of contents
@@ -372,7 +404,7 @@ keywords: "html, wt"
 ***
 
 - [**p**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
-  - categories: _Flow contenet, palpable contet
+  - categories: _Flow contenet, palpable contet_
   - Acsessibility: not use empty `<p></p>`, `<p>` tags are recodnized by scree readers
 
   Example:
@@ -397,7 +429,7 @@ keywords: "html, wt"
 
   ```html
   <ol>
-    <li>Mix flour, baking powder, sugar, and salt.</>
+    <li>Mix flour, baking powder, sugar, and salt.</img>
     <li>In another bowl, mix eggs, milk, and oil.</li>
     <li>Stir both mixtures together.</li>
     <li>Fill muffin tray 3/4 full.</li>
@@ -465,8 +497,8 @@ keywords: "html, wt"
 ***
 
 - [**form**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
-  - "old style" web programming, since it redirects the user to a new page, _still used to indicate grouping_
-  - categories: _Flow contend, palpable contend
+  - "old style" web programming, since it redirects the user to a new page, **still used to indicate grouping**
+  - categories: _Flow contend, palpable contend_
   - **autocomplete=""** `off`, `on`,
   - **target=""** `_self`, `_blank_`, `_top`, `_parent`
 
