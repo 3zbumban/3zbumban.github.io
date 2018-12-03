@@ -3,7 +3,7 @@ title_left    : "3z"
 title_right   : "bumban" # default: ""
 description   : "3zbumban blog"
 keywords      : "3zbumban, programming, blog, computer science"
-url           : https://3zbumban.github.io/ # site url
+url           : https://3zbumban.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
