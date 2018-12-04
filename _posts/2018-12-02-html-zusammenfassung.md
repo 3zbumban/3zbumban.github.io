@@ -335,6 +335,22 @@ keywords: "html, wt"
 
 ***
 
+- [**mark**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark)
+  - used to higliht text
+  
+  Example:
+
+  ```html
+  <p>
+    Several species of
+    <mark>salamander</mark>
+    inhabit the temperate rainforest
+    of the Pacific Northwest.
+  </p>
+  ```
+
+***
+
 ### [Block Level Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)
 
 - [**table**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
