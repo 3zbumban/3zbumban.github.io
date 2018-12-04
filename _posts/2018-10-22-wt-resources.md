@@ -8,6 +8,10 @@ keywords: "js, css, scss, vue, express"
 
 # may be usefull for wt
 
+## allegemein
+
+- [chance.js](http://chancejs.com/)
+
 ## client
 
 - [vuex-flash](http://ahmeddinar.me/vuex-flash/#/), [sweet-alert](https://sweetalert.js.org/)
