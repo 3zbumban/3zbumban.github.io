@@ -170,7 +170,7 @@ keywords: "html, wt"
 
 ***
 
-- [**em**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)(emphasize)
+- [**em**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) (emphasize)
   - categories: _Flow Contend, phrasing contend, palpable content_
   - only global attributes
 
@@ -284,7 +284,7 @@ keywords: "html, wt"
 ***
 
 - [**iframe**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
-  - categories: _Flow Contend, phrasing contend, embedded contend, interactive contend, palpable contend
+  - categories: _Flow Contend, phrasing contend, embedded contend, interactive contend, palpable contend_
   - [Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#Attributes)
   - [**title=""**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#Accessibility_concerns) should always describe iframe contend
   - [Scripting](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#Scripting) scripts from the iframe can get acsess to the window object
@@ -321,17 +321,17 @@ keywords: "html, wt"
 ### [Block Level Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)
 
 - [**table**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
-  - all attributes are deprecated
-  - structure:
+  - attributes are deprecated
+  - **struktur:**
     - `<table>...</table>` main element
-      - optional:
+      - `<tr>...</tr>` _table row_
+        - `<td>...</td>` _table data used inside `<tr>`_
+        - `<th>...</th>` _table head used inside `<thead>` or `<tr>`_
+      - _optional:_ `<colgroup>` and inside `<col>` to style table
+        - **span=""** colgroup attribute _number_
+      - _optional:_
         - `<thead>...</thead>` _use `<th>` inside_
         - `<tbody>...</tbody>` _use `<td>` inside_
-    - `<tr>...</tr>` _table row_
-    - `<td>...</td>` _table data used inside `<tr>`_
-    - `<th>...</th>` _table head used inside `<thead>` or `<tr>`_
-    - optional: `<colgroup>` and inside `<col>` to style table
-      - **span=""** colgroup attribute _number_
 
   Example:
 
@@ -501,6 +501,7 @@ keywords: "html, wt"
   - categories: _Flow contend, palpable contend_
   - **autocomplete=""** `off`, `on`,
   - **target=""** `_self`, `_blank_`, `_top`, `_parent`
+  - use `<fieldset>...</fieldset>` aroud radio boxes, assistive systems use them!
 
   Example:
 
@@ -543,4 +544,4 @@ keywords: "html, wt"
 - propper controls (`<botton>` instead of `<div onclick="...">`)
 - use `<labels>` to `<input>`
 - use propper `alt=""` on `<img>`
-  - test: user [screenreader](https://de.wikipedia.org/wiki/Screenreader)
+  - test: us a [screenreader](https://www.nvaccess.org/download/)
