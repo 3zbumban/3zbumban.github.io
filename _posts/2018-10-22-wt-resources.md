@@ -6,7 +6,7 @@ description: "usefull for wt"
 keywords: "js, css, scss, vue, express"
 ---
 
-# wt-resources
+# may be usefull for wt
 
 ## client
 
