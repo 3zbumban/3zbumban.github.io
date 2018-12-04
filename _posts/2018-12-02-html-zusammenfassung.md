@@ -519,14 +519,14 @@ keywords: "html, wt"
 - [**ol**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) (ordered list)
   - categories: _Flow content_
   - **reversed** (HTML5) displays in reversed order when present
-  - **start=""** (HTML5) speciefies start value for nunmbering
+  - **start=""** (HTML5) speciefies **start value for nunmbering**
   - **type=""** `"a"` lowercase latters, `"A"` uppercase letters, `"i"` lowercase roman, `"I"` upper roman, `"1"` numbers
 
   Example:
 
   ```html
   <ol>
-    <li>Mix flour, baking powder, sugar, and salt.</img>
+    <li>Mix flour, baking powder, sugar, and salt.</li>
     <li>In another bowl, mix eggs, milk, and oil.</li>
     <li>Stir both mixtures together.</li>
     <li>Fill muffin tray 3/4 full.</li>
