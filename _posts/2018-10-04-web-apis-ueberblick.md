@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "CSS Cheatsheet"
+title: "WEB API's overview"
 comments: true
-description: "CSS zusammenfassung"
-keywords: "CSS, wt"
+description: "WEB API's overview"
+keywords: "web api, wt"
 ---
 
 # [Browser API's](https://developer.mozilla.org/en-US/docs/Web/API)
