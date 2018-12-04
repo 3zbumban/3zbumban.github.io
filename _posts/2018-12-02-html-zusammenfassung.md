@@ -351,6 +351,21 @@ keywords: "html, wt"
 
 ***
 
+- [**sub**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
+  - used to lower text
+  
+  Example:
+
+  ```html
+  <p>
+    Almost every developer's favorite molecule is
+    C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>,
+    also known as "caffeine."
+  </p>
+  ```
+
+***
+
 ### [Block Level Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)
 
 - [**table**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
