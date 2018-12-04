@@ -17,6 +17,7 @@ keywords: "html, wt"
 - **id=""** unique identifier
 - **class=""** css class(es)
 - **style=""** inline css
+- **title=""** will be shown when you hover, used for tooltips
 
 ```html
 <html>
@@ -318,6 +319,22 @@ keywords: "html, wt"
 
 ***
 
+- [abbr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr) (abriviation, akronym)
+  - **title=""** Long term, short goes between tags
+
+  Example:
+
+  ```html
+  <p>
+    You can use
+    <abbr title="Cascading Style Sheets">CSS</abbr>
+    to style your
+    <abbr title="HyperText Markup Language">HTML
+  </abbr>.</p>
+  ```
+
+***
+
 ### [Block Level Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)
 
 - [**table**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
@@ -538,6 +555,26 @@ keywords: "html, wt"
 
 ***
 
+- [**pre**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
+  - used for preformated text -> text in html same as in markup
+
+  Example:
+
+  ```html
+  <pre>
+  ___________________________
+  < I'm an expert in my field. >
+  ---------------------------
+         \   ^__^
+          \  (oo)\_______
+             (__)\       )\/\
+                 ||----w |
+                 ||     ||
+  </pre>
+  ```
+
+***
+
 ### Acsessibility
 
 - **dont** use tables for layouts
@@ -545,3 +582,10 @@ keywords: "html, wt"
 - use `<labels>` to `<input>`
 - use propper `alt=""` on `<img>`
   - test: us a [screenreader](https://www.nvaccess.org/download/)
+
+***
+
+#### Practice
+
+- [W3 schools quiz](https://www.w3schools.com/quiztest/quiztest.asp?Qtest=HTML)
+- [W3 exercise](https://www.w3schools.com/html/exercise.asp)
