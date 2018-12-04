@@ -1,3 +1,3 @@
 git add .
-git commit -m "publis"
+git commit -m "publishing..."
 git push
