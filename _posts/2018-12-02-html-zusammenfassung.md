@@ -380,6 +380,41 @@ keywords: "html, wt"
 
 ***
 
+- [**q**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q) (Inline Quotation)
+  - used to ad qutation marks ("...")
+  
+  Example:
+
+  ```html
+  <p>
+    I am so
+    <q>cool</q>.
+  </p>
+  ```
+
+***
+
+- [**blockquote**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
+
+  Example:
+
+  ```html
+  <blockquote cite="https://www.huxley.net/bnw/four.html">
+    <p>Words can be like X-rays, if you use them properly – 
+    they'll go through anything. You read and you're pierced.</p>
+  </blockquote>
+
+  <cite>– Aldous Huxley, Brave New World</cite>
+  ```
+
+***
+
+- [**bdo**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo)
+  - used to change text direction
+  - **dir=""** set text direktion `ltr` = left to right `rtl`
+
+***
+
 ### [Block Level Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)
 
 - [**table**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
@@ -621,16 +656,3 @@ keywords: "html, wt"
 ***
 
 ### Acsessibility
-
-- **dont** use tables for layouts
-- propper controls (`<botton>` instead of `<div onclick="...">`)
-- use `<labels>` to `<input>`
-- use propper `alt=""` on `<img>`
-  - test: us a [screenreader](https://www.nvaccess.org/download/)
-
-***
-
-#### Practice
-
-- [W3 schools quiz](https://www.w3schools.com/quiztest/quiztest.asp?Qtest=HTML)
-- [W3 exercise](https://www.w3schools.com/html/exercise.asp)
