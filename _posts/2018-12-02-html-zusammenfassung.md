@@ -353,7 +353,7 @@ keywords: "html, wt"
 
 - [**sub**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
   - used to lower text
-  
+
   Example:
 
   ```html
@@ -361,6 +361,20 @@ keywords: "html, wt"
     Almost every developer's favorite molecule is
     C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>,
     also known as "caffeine."
+  </p>
+  ```
+
+***
+
+- [**del**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del)
+  - to add strikeout to text
+
+  Example:
+
+  ```html
+  <p>
+    <del>This text has been deleted</del>,
+    here is the rest of the paragraph.
   </p>
   ```
 
