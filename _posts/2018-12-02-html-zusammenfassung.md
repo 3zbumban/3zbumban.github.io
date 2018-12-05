@@ -656,3 +656,16 @@ keywords: "html, wt"
 ***
 
 ### Acsessibility
+
+- **dont** use tables for layouts
+- propper controls (`<botton>` instead of `<div onclick="...">`)
+- use `<labels>` to `<input>`
+- use propper `alt=""` on `<img>`
+  - test: us a [screenreader](https://www.nvaccess.org/download/)
+
+***
+
+#### Practice
+
+- [W3 schools quiz](https://www.w3schools.com/quiztest/quiztest.asp?Qtest=HTML)
+- [W3 exercise](https://www.w3schools.com/html/exercise.asp)

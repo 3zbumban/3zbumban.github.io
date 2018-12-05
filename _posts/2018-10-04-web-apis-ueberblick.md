@@ -16,7 +16,7 @@ keywords: "web api, wt"
   - mechanism to store key/value pairs more intuitive than cookies
 
 - [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
-  - HTT, ftp , XML and other requests
+  - HTTP, ftp , XML and other requests
 
 - [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 - [clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API#Accessing_the_clipboard)
