@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "CSS Cheatsheet"
+title: "JS Cheatsheet"
 comments: true
-description: "CSS zusammenfassung"
-keywords: "CSS, wt"
+description: "js zusammenfassung"
+keywords: "js, wt"
 ---
 
 # JS
