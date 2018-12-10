@@ -14,7 +14,6 @@ keywords: "js, css, scss, vue, express"
 - [axois](https://github.com/axios/axios)
 
 ### Vue.js
-
 - [interesantes zu vuejs](https://github.com/vuejs/awesome-vue)
 - [vuejs](https://vuejs.org/)
 - [vuejs docs](https://vuejs.org/v2/guide/)
@@ -75,7 +74,6 @@ keywords: "js, css, scss, vue, express"
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
 
 ## Database
-
 - [robomongo mongoDB gui](https://robomongo.org/)
 - [mongoDB fast download](https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-4.0.3.zip)
 - [monk](https://github.com/Automattic/monk)
