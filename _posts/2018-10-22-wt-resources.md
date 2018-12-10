@@ -14,6 +14,7 @@ keywords: "js, css, scss, vue, express"
 - [axois](https://github.com/axios/axios)
 
 ### Vue.js
+
 - [interesantes zu vuejs](https://github.com/vuejs/awesome-vue)
 - [vuejs](https://vuejs.org/)
 - [vuejs docs](https://vuejs.org/v2/guide/)
@@ -74,6 +75,7 @@ keywords: "js, css, scss, vue, express"
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
 
 ## Database
+
 - [robomongo mongoDB gui](https://robomongo.org/)
 - [mongoDB fast download](https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-4.0.3.zip)
 - [monk](https://github.com/Automattic/monk)
@@ -94,7 +96,7 @@ keywords: "js, css, scss, vue, express"
 - [gitignore.io](https://www.gitignore.io/api/node,vuejs,webstorm)
 - [webpack configgenr](http://webpackconfigr.com/), [react webpack generator](https://generatewebpackconfig.netlify.com/)
 
-```sh
+```bash
 curl https://www.gitignore.io/api/node,vuejs,webstorm > .gitignore
 ```
 
@@ -103,7 +105,7 @@ curl https://www.gitignore.io/api/node,vuejs,webstorm > .gitignore
 - [deploy vuejs with now guide](https://cli.vuejs.org/guide/deployment.html#now)
 - [now.sh](https://zeit.co/pricing), [now.json config für vuejs](https://gist.github.com/3zbumban/2f0d547d3e16dd2301d0961c2000f1b2)
 
-```sh
+```bash
 git clone https://gist.github.com/2f0d547d3e16dd2301d0961c2000f1b2.gi
 ```
 
