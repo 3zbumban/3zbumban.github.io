@@ -30,12 +30,12 @@ keywords: "js, css, scss, vue, express"
 ### animation
 
 - [animejs](http://animejs.com/documentation/)
-  - [vue-animejs](https://www.npmjs.com/package/vue-animejs)
 
 ### auth
 
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 - [passportjs](http://www.passportjs.org/)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
 
 ## Style
 
