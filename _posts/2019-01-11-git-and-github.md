@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "vorlage"
+title: "git & gihub"
 comments: true
-description: "vorlage"
-keywords: "vorlage"
+description: "git and github routines"
+keywords: "git github cheatsheet"
 ---
 
 # Git and Github
