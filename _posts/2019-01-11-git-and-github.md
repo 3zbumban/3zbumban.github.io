@@ -55,3 +55,15 @@ git push origin master
 git fetch origin
 git reset --hard origin/master
 ```
+
+### errors
+
+#### 'fatal: refusing to merge unrelated histories'
+
+*fix:* add the `--allow-unrelated-histories` flag
+
+```sh
+git pull origin master --allow-unrelated-histories
+```
+
+-> [SO entry](https://stackoverflow.com/a/53663271/9588092)
