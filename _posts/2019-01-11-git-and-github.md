@@ -29,10 +29,12 @@ git config --list
 
 ```sh
 git config user.name "your name"
+git config --global user.name "your name"
 ```
 
 ```sh
 git config user.email "your_email@example.com"
+git config --global user.email "your_email@example.com"
 ```
 
 ## add current local projekt to existing github repo
