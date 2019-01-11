@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "git & gihub"
+title: "git & github"
 comments: true
 description: "git and github routines"
 keywords: "git github cheatsheet"
