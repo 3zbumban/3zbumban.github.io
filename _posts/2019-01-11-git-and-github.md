@@ -21,6 +21,10 @@ git push
 git pull
 ```
 
+``` sh
+git remote -v
+```
+
 ## configuration
 
 ```sh
