@@ -8,7 +8,7 @@ keywords: "wt deployment now.sh heroku mlab"
 
 # Deployment
 
-## database on [mlab](https://mlab.com/)
+## database on [mlab](https://mlab.com/) [(mongodb)](https://www.mongodb.com/)
 
 1. create [mlab](https://mlab.com) account
 2. create new database
