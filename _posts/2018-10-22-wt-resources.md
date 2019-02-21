@@ -30,6 +30,7 @@ keywords: "js, css, scss, vue, express"
 ### animation
 
 - [animejs](http://animejs.com/documentation/)
+- [three.js](https://github.com/mrdoob/three.js)
 
 ### auth
 
