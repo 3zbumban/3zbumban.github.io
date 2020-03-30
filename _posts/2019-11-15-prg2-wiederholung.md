@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "vorlage"
+title: "prg2 Wiederholung"
 comments: true
-description: "vorlage"
-keywords: "vorlage"
+description: "programmieren 2 wiederholung"
+keywords: "prg2 programmieren java"
 ---
 
 # prg2
